@@ -1,0 +1,99 @@
+{
+  "name": "blockspare-blocks/blockspare-social-sharing",
+  "category": "blockspare",
+  "attributes": {
+    "sectionAlignment": {
+      "type": "strings",
+      "default": "center"
+    },
+    "facebook": {
+      "type": "boolean",
+      "default": true
+    },
+    "facebookTitle": {
+      "type": "strings",
+      "default": "Share on Facebook"
+    },
+    "twitter": {
+      "type": "boolean",
+      "default": true
+    },
+    "twitterTitle": {
+      "type": "strings",
+      "default": "Share on Twitter"
+    },
+    "linkedin": {
+      "type": "boolean",
+      "default": true
+    },
+    "linkedinTitle": {
+      "type": "strings",
+      "default": "Share on LinkedIn"
+    },
+    "pinterest": {
+      "type": "boolean",
+      "default": false
+    },
+    "pinterestTitle": {
+      "type": "strings",
+      "default": "Share on Pinterest"
+    },
+    "email": {
+      "type": "boolean",
+      "default": false
+    },
+    "emailTitle": {
+      "type": "strings",
+      "default": "Share via Email"
+    },
+    "reddit": {
+      "type": "boolean",
+      "default": false
+    },
+    "redditTitle": {
+      "type": "strings",
+      "default": "Share on Reddit"
+    },
+    "buttonOptions": {
+      "type": "string",
+      "default": "blockspare-icon-only"
+    },
+    "buttonFills": {
+      "type": "string",
+      "default": "blockspare-social-icon-solid"
+    },
+    "iconColorOption": {
+      "type": "string",
+      "default": "blockspare-default-official-color"
+    },
+    "customfontColorOption": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "custombackgroundColorOption": {
+      "type": "string",
+      "default": "#404040"
+    },
+    "buttonShapes": {
+      "type": "string",
+      "default": "blockspare-social-icon-square"
+    },
+    "buttonSizes": {
+      "type": "string",
+      "default": "blockspare-social-icon-small"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    }
+  }
+}

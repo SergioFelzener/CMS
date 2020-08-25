@@ -1,0 +1,207 @@
+{
+  "name": "blockspare/blockspare-latest-posts-list",
+  "category": "blockspare",
+  "attributes" : {
+    "categories": {
+      "type": "string"
+    },
+    "uniqueClass": {
+      "type": "string",
+      "default": ""
+    },
+    "className": {
+      "type": "string"
+    },
+    "postsToShow": {
+      "type": "number",
+      "default": 5
+    },
+    "displayPostDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostExcerpt": {
+      "type": "boolean",
+      "default": false
+    },
+    "displayPostAuthor": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "displayPostTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "postTitleColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "postTitleFontSize": {
+      "type": "number",
+      "default": 20
+    },
+
+
+    "titleFontFamily": {
+      "type": "string",
+      "default": "Default"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": 400
+    },
+    "titleFontSubset": {
+      "type": "string"
+    },
+
+    "titleFontSizeType" :{
+      "type": "string",
+      "default": "px"
+    },
+    "titleFontSizeMobile" :{
+      "type": "number",
+      "default": 14
+    },
+    "titleFontSizeTablet" :{
+      "type": "number",
+      "default": 18
+    },
+    "titleLoadGoogleFonts":{
+      "type": "boolean",
+      "default": false
+
+    },
+    "linkColor": {
+      "type": "string",
+      "default": "#8b249c"
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#f4f4f4"
+    },
+
+    "generalColor": {
+      "type": "string",
+      "default": "#404040"
+    },
+
+    "displayPostCategory": {
+      "type": "boolean",
+      "default": true
+    },
+
+    "design": {
+      "type": "string",
+      "default": "blockspare-list-layout-1"
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+
+    "readMoreText": {
+      "type": "string",
+      "default": "Continue Reading"
+    },
+    "offset": {
+      "type": "number",
+      "default": 0
+    },
+    "excerptLength": {
+      "type": "number",
+      "default": 20
+    },
+    "postType": {
+      "type": "string",
+      "default": "post"
+    },
+    "displayPostsBy": {
+      "type": "string",
+      "default": "blockspare-post-by-category"
+    },
+    "sectionTag": {
+      "type": "string",
+      "default": "section"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "large"
+    },
+    "url": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "src"
+    },
+    "id": {
+      "type": "number"
+    },
+    "marginTop": {
+      "type": "number",
+      "default": 30
+    },
+    "marginBottom": {
+      "type": "number",
+      "default": 30
+    },
+    "backGroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "enableBackgroundColor": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentOrder": {
+      "type": "string",
+      "default": "content-order-1"
+    },
+    "enableBoxShadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "xOffset": {
+      "type": "number",
+      "default": 0
+    },
+    "yOffset": {
+      "type": "number",
+      "default": 6
+    },
+    "blur": {
+      "type": "number",
+      "default": 12
+    },
+    "spread": {
+      "type": "number",
+      "default": -10
+    },
+    "shadowColor": {
+      "type": "string",
+      "default": "#000"
+    }
+  }
+}
